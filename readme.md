@@ -1,3 +1,7 @@
+> When you write programs in purely functional language, you esentially
+> write their mathematical definitions of - you define their 
+> meaning using precise language of mathematics
+
 Here's the list of functions:
 - min(array)
 - max(array)
