@@ -1,8 +1,6 @@
-> When you write programs in purely functional language, you esentially
-> write their mathematical definitions of - you define their 
-> meaning using precise language of mathematics
+Solutions to esoteric task I've once given to my friend who wanted to learn more about recusion. The task is 
+to implement all functions bellow (hopefuly it's clear what they should do from their names):
 
-Here's the list of functions:
 - min(array)
 - max(array)
 - sum(array)
@@ -15,17 +13,16 @@ Here's the list of functions:
 - reverse(array)
 - sort(array)
 
-The esoteric task is to implement each function with the following constraints:
-- You cannot use mutable variables and loops, and cannot mutate any values. 
-  Each function must be pure
+The trick is that:
 
-- You cannot use any built-in JavaScript functions. The only functions you can
-  use are `head()`, `tail()`, `prepend()` defined at the top of the file, 
-  and all functions that you write yourself
+- All functions must be written as lambdas without code blocks: () => <expression>. Also,
+you must use **only** lambdas
 
-- You cannot use JS spread syntax (`[...array]` or `{ ...obj }`) and indexed access
-  to arrays (array[0]). You are also not allowed to use any object propery access 
-  (`obj.prop` or `obj['prop']`) except `array.length`
+- Global variables, mutations and side effects are not allowed
 
-- Each function must be a lambda without block body. That is, it must just return 
-  some expression
+- The following syntaxes are prohibited: indexer access (array[0]), object spread ({ ...obj })
+array spread ([...array])
+
+#
+
+Did you do it? Amazing! Please, don't do that in a production code
