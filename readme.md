@@ -1,5 +1,5 @@
 Solutions to esoteric task I've once given to my friend who wanted to learn more about recusion. The task is 
-to implement all functions bellow (hopefuly it's clear what they should do from their names):
+to implement all functions bellow (hopefully it's clear what they should do from their names):
 
 - min(array)
 - max(array)
