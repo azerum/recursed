@@ -20,5 +20,5 @@ all the code you write will be just expressions, without statements
 
 - Global variables, mutations and side effects are not allowed
 
-- The following syntaxes are prohibited: indexer access (array[0]), object spread ({ ...obj })
+- In all functions except `head`, `tail` and `prepend`, the following syntaxes are prohibited: indexer access (array[i]), object spread ({ ...obj })
 array spread ([...array])
