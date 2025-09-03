@@ -1,4 +1,4 @@
-Solutions to esoteric task I've once given to my friend who wanted to learn more about recusion. The task is 
+Solutions to esoteric task I've once given to my friend who wanted to learn more about recusion and functional programming. The task is 
 to implement all functions bellow (hopefully it's clear what they should do from their names):
 
 - min(array)
@@ -15,14 +15,10 @@ to implement all functions bellow (hopefully it's clear what they should do from
 
 The trick is that:
 
-- All functions must be written as lambdas without code blocks: () => <expression>. Also,
-you must use **only** lambdas
+- All functions must be written as lambdas without code blocks: () => <expression>. Effectively,
+all the code you write will be just expressions, without statements
 
 - Global variables, mutations and side effects are not allowed
 
 - The following syntaxes are prohibited: indexer access (array[0]), object spread ({ ...obj })
 array spread ([...array])
-
-#
-
-Did you do it? Amazing! Please, don't do that in a production code
